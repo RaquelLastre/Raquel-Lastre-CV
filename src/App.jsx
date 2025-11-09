@@ -20,7 +20,6 @@ function App() {
           <a href="#experiencia">{datos.nav.dos}</a>
           <a href="#educacion">{datos.nav.tres}</a>
           <a href="#cursos">{datos.nav.cuatro}</a>
-          <a href="#intereses">{datos.nav.cinco}</a>
         </nav>
 
       </div>

@@ -4,18 +4,22 @@
 
 [data-theme='claro'] {
   --bg-color: #e7e5d6;
+  --texto:#352d29;
   --text-color: #352d29;
   --primary-color: #a4bfbd;
   --secondary-color: #db765f;
   --accent-color: #ecb35b;
+  --contrast: #ffffff;
 }
 
 [data-theme='oscuro'] {
-  --bg-color: #352d29;
-  --text-color: #e7e5d6;
+  --bg-color: #5b4d46;
+  --texto:#e7e5d6;
+  --text-color: #000000;
   --primary-color: #a4bfbd;
   --secondary-color: #db765f;
   --accent-color: #ecb35b;
+   --contrast: #242424;
 }
 
 body {
@@ -61,7 +65,7 @@ h2 {
   gap: 10px;
   align-items: center;
 
-  background-color: white;
+  background-color: var(--contrast);
   border: 1px solid var(--text-color);
   border-radius: 100px;
   padding: 10px 20px;
@@ -70,17 +74,17 @@ h2 {
 
   a,
   button {
-    color: white;
+    color: var(--contrast);
     text-decoration: none;
   }
 
   a:hover,
   button:hover {
-    color: var(--text-color);
+    color: var(--texto);
   }
 
   button {
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--texto);
     height: 100%;
     font-size: 1.5em;
     padding: 0.8%;
@@ -101,7 +105,7 @@ h2 {
     gap: 2%;
 
     a {
-      border: 1px solid var(--text-color);
+      border: 1px solid var(--texto);
       font-size: 1.5em;
       font-weight: normal;
       padding: 0.8% 1%;
@@ -204,7 +208,7 @@ h2 {
   align-items: center;
   justify-content: space-evenly;
 
-  background-color: white;
+  background-color: var(--contrast);
   border: 1px solid var(--text-color);
   border-radius: 100px;
   padding: 10px 20px;
@@ -213,7 +217,7 @@ h2 {
 
   i {
     font-size: 3vw;
-    color: var(--text-color);
+    color: var(--texto);
   }
 }
 
@@ -252,7 +256,8 @@ h2 {
   }
 
   legend {
-    background-color: white;
+    color: var(--texto);
+    background-color: var(--contrast);
     border: 1px solid var(--text-color);
     padding: 0 2%;
     border-radius: 100px;
@@ -307,7 +312,8 @@ h2 {
   }
 
   legend {
-    background-color: white;
+    color: var(--texto);
+    background-color: var(--contrast);
     border: 1px solid var(--text-color);
     padding: 0 2%;
     border-radius: 100px;
@@ -327,7 +333,7 @@ h2 {
 
     p {
       text-decoration: underline;
-      color: white;
+      color: #e7e5d6;
     }
   }
 }
