@@ -1,0 +1,117 @@
+{
+    "nav": {
+        "uno": "Sobre mí",
+        "dos": "Experiencia",
+        "tres": "Educación",
+        "cuatro": "Cursos",
+        "cinco": "Intereses"
+    },
+    "header": {
+        "greeting": "¡Hola!",
+        "title": "Soy Raquel, programadora",
+        "description": "Soy una programadora junior con experiencia en desarrollo de videojuegos, interesada en el backend y en la inteligencia artificial aplicada a la salud. Me considero una persona responsable, adaptable y con facilidad para el trabajo en equipo. Disfruto resolviendo problemas y alcanzando objetivos de forma colaborativa."
+    },
+    "contact": {
+        "phone": "695 24 64 42",
+        "linkedin": "https://www.linkedin.com",
+        "photo": "./Resources/fotoCV.png"
+    },
+    "skills": {
+        "technologies": [
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "Java",
+            "Angular",
+            "React",
+            "Node.js",
+            "GitHub",
+            "Unity",
+            "Slack"
+        ]
+    },
+    "experience": [
+        {
+            "year": "2025",
+            "title": "Desarrollo web",
+            "company": "Origen Biotech",
+            "details": [
+                "Back-End y Front-End en proyectos gubernamentales y biotecnológicos",
+                "Uso de programas de edición de imágenes",
+                "Adaptar el diseño según autor y contenido"
+            ]
+        },
+        {
+            "year": "2025",
+            "title": "Videojuegos para Game Jams",
+            "company": "Game Jams",
+            "details": [
+                "Programación de videojuegos desde cero en periodos de 4 a 7 días.",
+                "Trabajo en equipo y comunicación efectiva.",
+                "Resolución de problemas, adaptabilidad, creatividad y resiliencia."
+            ]
+        },
+        {
+            "year": "2023",
+            "title": "Videojuego 'Mencia, A Never Was Tale'",
+            "company": "Timber Films",
+            "details": [
+                "Programación en Unity utilizando C#.",
+                "Responsable del apartado artístico, coordinando al equipo para cumplir los plazos.",
+                "Modelado y animación 3D, efectos visuales y arte conceptual."
+            ]
+        },
+        {
+            "year": "2024",
+            "title": "Ilustraciones editoriales",
+            "company": "Héroes de Papel",
+            "details": [
+                "Diseño de portadas, contraportadas, capítulos y otros elementos visuales.",
+                "Uso de programas de edición de imágenes.",
+                "Adaptación del diseño al estilo del autor y al contenido."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "year_range": "2024 – 2026",
+            "degree": "CFGS en Desarrollo de Aplicaciones Web",
+            "institution": "IES Sotero Hernández",
+            "details": [
+                "Front-End con HTML, CSS, XML y React.",
+                "Back-End con Java, MariaDB y MongoDB.",
+                "Desarrollo de proyectos integrando bases de datos, vistas y librerías diversas."
+            ]
+        },
+        {
+            "year_range": "2021 – 2023",
+            "degree": "CFGS en Animación 3D para Videojuegos y Entornos Interactivos",
+            "institution": "EUSA",
+            "details": [
+                "Uso de herramientas de edición audiovisual.",
+                "Animación, diseño conceptual, montaje y creatividad.",
+                "Desarrollo de proyectos con distintos requerimientos y plazos."
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "title": "Diseño Web Responsive",
+            "url": "https://academia.openwebinars.net/aprende/responsive-web-design/"
+        },
+        {
+            "title": "Fundamentos de React",
+            "url": "https://openwebinars.net/cursos/react/"
+        },
+        {
+            "title": "Fundamentos JavaScript",
+            "url": "https://openwebinars.net/cursos/javascript-fundamentos/"
+        }
+    ],
+    "interests": [
+        "Programación",
+        "Arte",
+        "Lectura",
+        "Escalada"
+    ]
+}

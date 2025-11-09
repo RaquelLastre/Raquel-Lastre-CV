@@ -1,0 +1,116 @@
+{
+    "nav": {
+        "uno": "Experience",
+        "dos": "Education",
+        "tres": "Courses",
+        "cuatro": "Interests"
+    },
+    "header": {
+        "greeting": "Hello!",
+        "title": "I'm Raquel, a programmer",
+        "description": "I am a junior programmer with experience in video game development, interested in backend and artificial intelligence applied to healthcare. I consider myself a responsible, adaptable person with an ability to work well in teams. I enjoy solving problems and achieving goals collaboratively."
+    },
+    "contact": {
+        "phone": "695 24 64 42",
+        "linkedin": "https://www.linkedin.com/in/raquellastrearrabal/",
+        "photo": "./Resources/fotoCV.png"
+    },
+    "skills": {
+        "technologies": [
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "Java",
+            "Angular",
+            "React",
+            "Node.js",
+            "GitHub",
+            "Unity",
+            "Slack"
+        ]
+    },
+    "experience": [
+        {
+            "year": "2025",
+            "title": "Web Development",
+            "company": "Origen Biotech",
+            "details": [
+                "Back-End and Front-End Development in Governmental and Biotechnological Projects",
+                "Using image editing software",
+                "Adapting designs according to the author and content"
+            ]
+        },
+        {
+            "year": "2025",
+            "title": "Video Games for Game Jams",
+            "company": "Game Jams",
+            "details": [
+                "Programming video games from scratch in periods of 4 to 7 days.",
+                "Teamwork and effective communication.",
+                "Problem-solving, adaptability, creativity, and resilience."
+            ]
+        },
+        {
+            "year": "2023",
+            "title": "Video Game 'Mencia, A Never Was Tale'",
+            "company": "Timber Films",
+            "details": [
+                "Programming in Unity using C#.",
+                "Responsible for the artistic section, coordinating the team to meet deadlines.",
+                "3D modeling and animation, visual effects, and concept art."
+            ]
+        },
+        {
+            "year": "2024",
+            "title": "Editorial Illustrations",
+            "company": "Héroes de Papel",
+            "details": [
+                "Designing covers, back covers, chapters, and other visual elements.",
+                "Using image editing software.",
+                "Adapting designs to the author's style and content."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "year_range": "2024 – 2026",
+            "degree": "Higher Education in Web Application Development",
+            "institution": "IES Sotero Hernández",
+            "details": [
+                "Front-End with HTML, CSS, XML, and React.",
+                "Back-End with Java, MariaDB, and MongoDB.",
+                "Developing projects integrating databases, views, and various libraries."
+            ]
+        },
+        {
+            "year_range": "2021 – 2023",
+            "degree": "Higher Education in 3D Animation for Video Games and Interactive Environments",
+            "institution": "EUSA",
+            "details": [
+                "Using audiovisual editing tools.",
+                "Animation, concept design, editing, and creativity.",
+                "Developing projects with different requirements and deadlines."
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "title": "Responsive Web Design",
+            "url": "https://academia.openwebinars.net/aprende/responsive-web-design/"
+        },
+        {
+            "title": "Fundamentals of React",
+            "url": "https://openwebinars.net/cursos/react/"
+        },
+        {
+            "title": "JavaScript Fundamentals",
+            "url": "https://academia.openwebinars.net/aprende/javascript-fundamentos/"
+        }
+    ],
+    "interests": [
+        "Programming",
+        "Art",
+        "Reading",
+        "Climbing"
+    ]
+}
