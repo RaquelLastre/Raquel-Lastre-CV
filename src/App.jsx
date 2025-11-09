@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.scss'
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import foto from './Resources/fotoCV.png';
+import foto from './Resources/foto.jpg';
 import estrella from './Resources/star.png';
 import esp from './InfoEs.json';
 import eng from './InfoEn.json';
@@ -39,7 +39,7 @@ function App() {
             <p><i className="fa-solid fa-phone-volume"></i> {datos.contact.phone}</p>
           </div>
         </div>
-        <img src={foto} alt="Raquel" />
+        <img id='foto' src={foto} alt="Raquel" />
       </div>
 
       <div id='tecn'>
@@ -79,19 +79,19 @@ function App() {
         <h1><img src={estrella} alt="" /> {datos.nav.tres} <img src={estrella} alt="" /></h1>
         <hr />
         <div id='tarjetas'>
-        {datos.education.map((edu, index) => (
-          <div key={index}>
-            <fieldset>
-              <legend><h3>{edu.degree} </h3></legend>
-              <p>{edu.year_range} – {edu.institution}</p>
-              <ul>
-                {edu.details.map((detail, idx) => (
-                  <li key={idx}>{detail}</li>
-                ))}
-              </ul>
-            </fieldset>
-          </div>
-        ))}
+          {datos.education.map((edu, index) => (
+            <div key={index}>
+              <fieldset>
+                <legend><h3>{edu.degree} </h3></legend>
+                <p>{edu.year_range} – {edu.institution}</p>
+                <ul>
+                  {edu.details.map((detail, idx) => (
+                    <li key={idx}>{detail}</li>
+                  ))}
+                </ul>
+              </fieldset>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -99,31 +99,30 @@ function App() {
       <div id="cursos">
         <h1><img src={estrella} alt="" /> {datos.nav.cuatro}<img src={estrella} alt="" /></h1>
         <hr />
-        <div id='tarjetas'>        
-        {datos.courses.map((course, index) => (
-          <a key={index} href={course.url} target="_blank">{course.title}</a>
-        ))}
+        <div id='tarjetas'>
+          {datos.courses.map((course, index) => (
+            <a key={index} href={course.url} target="_blank">{course.title}</a>
+          ))}
         </div>
       </div>
 
 
-      <div id="intereses">
+      {/*<div id="intereses">
         <h1><i className="fa-solid fa-star-of-life"></i> {datos.nav.cinco}</h1>
         <ul>
           {datos.interests.map((interest, index) => (
             <li key={index}>{interest}</li>
           ))}
         </ul>
+      </div>*/}
+
+      <div id='despedida'>
+        <h1><img src={estrella} alt="" />{idioma === "esp" ? "¡Muchas Gracias Por Tu Tiempo!" : "Thank You For Your Time!"}<img src={estrella} alt="" /></h1>
+        <div id='botones'>
+          <a href={datos.contact.linkedin} target="_blank"><i className="fa-brands fa-linkedin"></i> LinkedIn </a>
+          <p><i className="fa-solid fa-phone-volume"></i> {datos.contact.phone}</p>
+        </div>
       </div>
-
-
-      <h1>{idioma === "esp" ? "¡Muchas Gracias!" : "Thank You!"}</h1>
-      <p>
-        <a href={datos.contact.linkedin}>
-          <i className="fa-brands fa-linkedin"></i> LinkedIn
-        </a>
-      </p>
-      <p><i className="fa-solid fa-phone-volume"></i> {datos.contact.phone}</p>
     </>
   )
 }
