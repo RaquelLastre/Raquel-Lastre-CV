@@ -9,25 +9,26 @@
     "header": {
         "greeting": "¡Hola!",
         "title": "Soy Raquel, programadora",
-        "description": "Soy una programadora junior con experiencia en desarrollo de videojuegos, interesada en el backend y en la inteligencia artificial aplicada a la salud. Me considero una persona responsable, adaptable y con facilidad para el trabajo en equipo. Disfruto resolviendo problemas y alcanzando objetivos de forma colaborativa."
+        "description": "Desarrolladora con formación Full-Stack y preferencia por el Front-End. Me motiva crear interfaces claras, cuidadas y útiles para las personas. Me adapto con facilidad a nuevos entornos, disfruto trabajando en equipo y me implico para que cada proyecto salga adelante. Me gusta aprender cosas nuevas, aportar ideas y mejorar continuamente tanto a nivel personal como profesional."
     },
     "contact": {
         "phone": "695 24 64 42",
-        "linkedin": "https://www.linkedin.com",
+        "linkedin": "https://www.linkedin.com/in/raquellastrearrabal/",
+        "github": "https://github.com/RaquelLastre",
         "photo": "./Resources/fotoCV.png"
     },
     "skills": {
         "technologies": [
-            "CSS",
             "HTML",
+            "CSS",
             "JavaScript",
-            "Java",
             "Angular",
             "React",
+            "Java",
             "Node.js",
             "GitHub",
-            "Unity",
-            "Slack"
+            "Slack",
+            "Unity"
         ]
     },
     "experience": [
@@ -36,9 +37,9 @@
             "title": "Desarrollo web",
             "company": "Origen Biotech",
             "details": [
-                "Back-End y Front-End en proyectos gubernamentales y biotecnológicos",
-                "Uso de programas de edición de imágenes",
-                "Adaptar el diseño según autor y contenido"
+                "Desarrollo Back-End y Front-End en proyectos gubernamentales y biotecnológicos, creando aplicaciones web completas y funcionales.",
+                "Front-End con Angular, implementando interfaces claras, responsivas e integrando APIs.",
+                "Back-End con .NET y C#, implementando lógica del servidor, bases de datos y APIs."
             ]
         },
         {
@@ -46,19 +47,9 @@
             "title": "Videojuegos para Game Jams",
             "company": "Game Jams",
             "details": [
-                "Programación de videojuegos desde cero en periodos de 4 a 7 días.",
-                "Trabajo en equipo y comunicación efectiva.",
-                "Resolución de problemas, adaptabilidad, creatividad y resiliencia."
-            ]
-        },
-        {
-            "year": "2023",
-            "title": "Videojuego 'Mencia, A Never Was Tale'",
-            "company": "Timber Films",
-            "details": [
-                "Programación en Unity utilizando C#.",
-                "Responsable del apartado artístico, coordinando al equipo para cumplir los plazos.",
-                "Modelado y animación 3D, efectos visuales y arte conceptual."
+                "Programé videojuegos completos desde cero en periodos de 4 a 7 días.",
+                "Fomenté la colaboración y comunicación efectiva dentro del equipo.",
+                "Resolví problemas técnicos y creativos, demostrando adaptabilidad y resiliencia bajo presión."
             ]
         },
         {
@@ -66,9 +57,19 @@
             "title": "Ilustraciones editoriales",
             "company": "Héroes de Papel",
             "details": [
-                "Diseño de portadas, contraportadas, capítulos y otros elementos visuales.",
-                "Uso de programas de edición de imágenes.",
-                "Adaptación del diseño al estilo del autor y al contenido."
+                "Diseñé portadas, contraportadas y elementos gráficos internos, adaptando el estilo al contenido y autor, en varios proyectos simultáneamente.",
+                "Utilicé programas profesionales de edición de imágenes y composición visual.",
+                "Entregué todos los proyectos antes de los plazos establecidos, manteniendo alta calidad y consistencia visual."
+            ]
+        },
+        {
+            "year": "2023",
+            "title": "Videojuego 'Mencia, A Never Was Tale'",
+            "company": "Timber Films",
+            "details": [
+                "Programé en Unity con C#, integrando mecánicas de juego y optimizando rendimiento.",
+                "Responsable del apartado artístico, coordinando al equipo para cumplir los plazos.",
+                "Creé modelos 3D, animaciones, efectos visuales y arte conceptual, aplicando técnicas de animación y diseño digital."
             ]
         }
     ],
@@ -78,40 +79,63 @@
             "degree": "CFGS en Desarrollo de Aplicaciones Web",
             "institution": "IES Sotero Hernández",
             "details": [
-                "Front-End con HTML, CSS, XML y React.",
-                "Back-End con Java, MariaDB y MongoDB.",
-                "Desarrollo de proyectos integrando bases de datos, vistas y librerías diversas."
-            ]
+                "Desarrollo de aplicaciones Front-End con HTML, CSS y React, creando interfaces claras y funcionales.",
+                "Programación Back-End utilizando Java, MariaDB y MongoDB.",
+                "Realización de proyectos completos que integran bases de datos, vistas y librerías, aplicando buenas prácticas de desarrollo"            ]
         },
         {
             "year_range": "2021 – 2023",
             "degree": "CFGS en Animación 3D para Videojuegos y Entornos Interactivos",
             "institution": "EUSA",
             "details": [
-                "Uso de herramientas de edición audiovisual.",
-                "Animación, diseño conceptual, montaje y creatividad.",
-                "Desarrollo de proyectos con distintos requerimientos y plazos."
+                "Creación de animaciones 3D, modelos y entornos interactivos utilizando herramientas de edición y modelado digital.",
+                "Desarrollo de proyectos con requisitos específicos y plazos ajustados, demostrando organización y autonomía.",
+                "Adaptación de procesos creativos a distintos tipos de proyectos y objetivos, manteniendo calidad y coherencia visual."
             ]
         }
     ],
     "courses": [
         {
-            "title": "Diseño Web Responsive",
-            "url": "https://academia.openwebinars.net/aprende/responsive-web-design/"
-        },
-        {
-            "title": "Fundamentos de React",
-            "url": "https://openwebinars.net/cursos/react/"
-        },
-        {
-            "title": "Fundamentos JavaScript",
-            "url": "https://openwebinars.net/cursos/javascript-fundamentos/"
-        }
+      "title": "Fundamentos de Angular",
+      "url": "https://academia.openwebinars.net/aprende/angular/"
+    },
+    {
+      "title": "Fundamentos de React",
+      "url": "https://openwebinars.net/cursos/react/"
+    },
+    {
+      "title": "Fundamentos JavaScript",
+      "url": "https://openwebinars.net/cursos/javascript-fundamentos/"
+    },
+    {
+      "title": "Diseño Web Responsive",
+      "url": "https://academia.openwebinars.net/aprende/responsive-web-design/"
+    },
+    {
+      "title": "Figma",
+      "url": "https://academia.openwebinars.net/aprende/figma/"
+    },
+    {
+      "title": "Teoría del color y la luz",
+      "url": "https://www.domestika.org/es/courses/1560-principios-de-iluminacion-para-pintura-digital?exp_set=1"
+    },
+    {
+      "title": "Inspiración creativa",
+      "url": "https://www.domestika.org/es/courses/2227-sketching-diario-como-inspiracion-creativa"
+    },
+    {
+      "title": "Concept Art",
+      "url": "https://www.domestika.org/es/courses/3940-concept-art-para-diseno-de-personajes-y-worldbuilding"
+    },
+    {
+      "title": "Photoshop",
+      "url": "https://www.domestika.org/es/courses/982-adobe-photoshop-para-concept-art"
+    }
     ],
     "interests": [
-        "Programación",
-        "Arte",
-        "Lectura",
-        "Escalada"
+        "Programación: Me gusta aprender nuevas tecnologías y experimentar con ideas propias.",
+        "Arte: Disfruto dibujar, explorar estilos y mantener la creatividad activa.",
+        "Lectura: Leer para aprender otras perspectivas, explorar culturas y fomentar mi crecimiento personal.",
+        "Escalada: Me ayuda a desconectar, mantenerme activa y superar retos."
     ]
 }

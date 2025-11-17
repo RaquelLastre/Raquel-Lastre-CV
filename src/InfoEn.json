@@ -1,32 +1,34 @@
 {
     "nav": {
-        "uno": "Experience",
-        "dos": "Education",
-        "tres": "Courses",
-        "cuatro": "Interests"
+        "uno": "About me",
+        "dos": "Experience",
+        "tres": "Education",
+        "cuatro": "Courses",
+        "cinco": "Interests"
     },
     "header": {
         "greeting": "Hello!",
-        "title": "I'm Raquel, a programmer",
-        "description": "I am a junior programmer with experience in video game development, interested in backend and artificial intelligence applied to healthcare. I consider myself a responsible, adaptable person with an ability to work well in teams. I enjoy solving problems and achieving goals collaboratively."
+        "title": "I'm Raquel, a developer",
+        "description": "Full-Stack developer with a preference for Front-End. I enjoy creating clear, well-crafted, and user-friendly interfaces. I adapt easily to new environments, enjoy working in teams, and make sure each project progresses successfully. I like learning new things, contributing ideas, and continuously improving both personally and professionally."
     },
     "contact": {
         "phone": "695 24 64 42",
         "linkedin": "https://www.linkedin.com/in/raquellastrearrabal/",
+        "github": "https://github.com/RaquelLastre",
         "photo": "./Resources/fotoCV.png"
     },
     "skills": {
         "technologies": [
-            "CSS",
             "HTML",
+            "CSS",
             "JavaScript",
-            "Java",
             "Angular",
             "React",
+            "Java",
             "Node.js",
             "GitHub",
-            "Unity",
-            "Slack"
+            "Slack",
+            "Unity"
         ]
     },
     "experience": [
@@ -35,9 +37,9 @@
             "title": "Web Development",
             "company": "Origen Biotech",
             "details": [
-                "Back-End and Front-End Development in Governmental and Biotechnological Projects",
-                "Using image editing software",
-                "Adapting designs according to the author and content"
+                "Back-End and Front-End development in governmental and biotechnological projects, creating complete and functional web applications.",
+                "Front-End with Angular, implementing clear, responsive interfaces and integrating APIs.",
+                "Back-End with .NET and C#, implementing server logic, databases, and APIs."
             ]
         },
         {
@@ -45,19 +47,9 @@
             "title": "Video Games for Game Jams",
             "company": "Game Jams",
             "details": [
-                "Programming video games from scratch in periods of 4 to 7 days.",
-                "Teamwork and effective communication.",
-                "Problem-solving, adaptability, creativity, and resilience."
-            ]
-        },
-        {
-            "year": "2023",
-            "title": "Video Game 'Mencia, A Never Was Tale'",
-            "company": "Timber Films",
-            "details": [
-                "Programming in Unity using C#.",
-                "Responsible for the artistic section, coordinating the team to meet deadlines.",
-                "3D modeling and animation, visual effects, and concept art."
+                "Programmed full video games from scratch in periods of 4 to 7 days.",
+                "Promoted teamwork and effective communication within the team.",
+                "Solved technical and creative problems, demonstrating adaptability and resilience under pressure."
             ]
         },
         {
@@ -65,38 +57,48 @@
             "title": "Editorial Illustrations",
             "company": "Héroes de Papel",
             "details": [
-                "Designing covers, back covers, chapters, and other visual elements.",
-                "Using image editing software.",
-                "Adapting designs to the author's style and content."
+                "Designed covers, back covers, chapters, and internal visual elements, adapting style to content and author across multiple projects simultaneously.",
+                "Used professional image editing and composition software.",
+                "Delivered all projects ahead of deadlines, maintaining high quality and visual consistency."
+            ]
+        },
+        {
+            "year": "2023",
+            "title": "Video Game 'Mencia, A Never Was Tale'",
+            "company": "Timber Films",
+            "details": [
+                "Programmed in Unity using C#, integrating game mechanics and optimizing performance.",
+                "Delivered all artistic elements on time, ensuring quality and visual consistency.",
+                "Created 3D models, animations, visual effects, and concept art, applying digital animation and design techniques."
             ]
         }
     ],
     "education": [
         {
             "year_range": "2024 – 2026",
-            "degree": "Higher Education in Web Application Development",
+            "degree": "Higher Vocational Training in Web Application Development",
             "institution": "IES Sotero Hernández",
             "details": [
-                "Front-End with HTML, CSS, XML, and React.",
-                "Back-End with Java, MariaDB, and MongoDB.",
-                "Developing projects integrating databases, views, and various libraries."
+                "Front-End development with HTML, CSS, and React, creating clear and functional interfaces.",
+                "Back-End programming using Java, MariaDB, and MongoDB.",
+                "Completed projects integrating databases, views, and libraries, applying best development practices and efficient organization."
             ]
         },
         {
             "year_range": "2021 – 2023",
-            "degree": "Higher Education in 3D Animation for Video Games and Interactive Environments",
+            "degree": "Higher Vocational Training in 3D Animation for Video Games and Interactive Environments",
             "institution": "EUSA",
             "details": [
-                "Using audiovisual editing tools.",
-                "Animation, concept design, editing, and creativity.",
-                "Developing projects with different requirements and deadlines."
+                "Created 3D animations, models, and interactive environments using professional editing and modeling tools.",
+                "Developed projects with specific requirements and tight deadlines, demonstrating autonomy and organization.",
+                "Adapted creative processes to different types of projects, maintaining quality and visual consistency."
             ]
         }
     ],
     "courses": [
         {
-            "title": "Responsive Web Design",
-            "url": "https://academia.openwebinars.net/aprende/responsive-web-design/"
+            "title": "Fundamentals of Angular",
+            "url": "https://academia.openwebinars.net/aprende/angular/"
         },
         {
             "title": "Fundamentals of React",
@@ -104,13 +106,37 @@
         },
         {
             "title": "JavaScript Fundamentals",
-            "url": "https://academia.openwebinars.net/aprende/javascript-fundamentos/"
+            "url": "https://openwebinars.net/cursos/javascript-fundamentos/"
+        },
+        {
+            "title": "Responsive Web Design",
+            "url": "https://academia.openwebinars.net/aprende/responsive-web-design/"
+        },
+        {
+            "title": "Figma",
+            "url": "https://academia.openwebinars.net/aprende/figma/"
+        },
+        {
+            "title": "Color and Light Theory",
+            "url": "https://www.domestika.org/es/courses/1560-principios-de-iluminacion-para-pintura-digital?exp_set=1"
+        },
+        {
+            "title": "Creative Inspiration",
+            "url": "https://www.domestika.org/es/courses/2227-sketching-diario-como-inspiracion-creativa"
+        },
+        {
+            "title": "Concept Art",
+            "url": "https://www.domestika.org/es/courses/3940-concept-art-para-diseno-de-personajes-y-worldbuilding"
+        },
+        {
+            "title": "Photoshop",
+            "url": "https://www.domestika.org/es/courses/982-adobe-photoshop-para-concept-art"
         }
     ],
     "interests": [
-        "Programming",
-        "Art",
-        "Reading",
-        "Climbing"
+        "Programming: I enjoy learning new technologies and experimenting with my own ideas.",
+        "Art: I like drawing, exploring styles, and keeping creativity active.",
+        "Reading: I read to learn different perspectives, explore cultures, and foster personal growth.",
+        "Climbing: It helps me disconnect, stay active, and overcome challenges."
     ]
 }

@@ -385,6 +385,46 @@ h2 {
   }
 }
 
+#intereses {
+  margin-top: 5%;
+
+  h1 {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+    margin: 0;
+
+    img {
+      width: 3%;
+    }
+  }
+
+  hr {
+    border-bottom: var(--text-color);
+  }
+
+
+  #tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    li {
+      background-color: var(--accent-color);
+      border: 1px solid var(--text-color);
+      padding: 5px 20px;
+      border-radius: 100px;
+      box-shadow: 10px 10px 0 0 var(--text-color);
+      text-decoration: none;
+      list-style: none;
+      flex-wrap: wrap;
+      margin: 3% 0;
+    }
+  }
+}
+
 #despedida {
   margin-top: 5%;
   background-color: var(--primary-color);
@@ -426,7 +466,8 @@ h2 {
 
     p,
     a {
-      margin-top: 2%;
+      margin:3%;
+      margin-bottom: 0;
       border: 1px solid var(--text-color);
       padding: 0.8% 5%;
       font-size: 1.2vw;
@@ -585,49 +626,82 @@ h2 {
       box-shadow: 5px 5px 0 0 var(--text-color);
     }
   }
-}
 
-#cursos {
-  margin-bottom: 30px;
-  h1 {
-    font-size: 10vw;
+  #cursos {
+    margin-bottom: 30px;
 
-    img {
-      width: 5%;
+    h1 {
+      font-size: 10vw;
+
+      img {
+        width: 5%;
+      }
+    }
+
+    #tarjetas {
+      flex-wrap: wrap;
+
+      a {
+        box-shadow: 5px 5px 0 0 var(--text-color);
+
+      }
     }
   }
 
-  #tarjetas {
-    flex-wrap: wrap;
-  }
-}
+  #intereses {
+    margin-bottom: 30px;
 
-#despedida {
-  padding: 3%;
+    h1 {
+      font-size: 10vw;
 
-  h1 {
-    font-size: 8vw;
-    gap: 0;
+      img {
+        width: 5%;
+      }
+    }
 
-    img {
-      width: 5%;
+    #tarjetas {
+      flex-wrap: wrap;
+      align-items: center;
+      ul{
+        padding: 0;
+      }
+
+      li {
+        box-shadow: 5px 5px 0 0 var(--text-color);
+
+      }
     }
   }
 
-  #botones {
-    padding: 5% 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  #despedida {
+    padding: 3%;
+    box-shadow: 5px 5px 0 0 var(--text-color);
 
-    a {
+
+    h1 {
       font-size: 4vw;
-      margin: 0;
+      gap: 2%;
+
+      img {
+        width: 5%;
+      }
     }
 
-    p {
-      font-size: 4vw;
-      margin: 0;
+    #botones {
+      padding: 5% 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        font-size: 4vw;
+        margin: 0;
+      }
+
+      p {
+        font-size: 4vw;
+        margin: 0;
+      }
     }
   }
 }

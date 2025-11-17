@@ -42,16 +42,16 @@ function App() {
       </div>
 
       <div id='tecn'>
-        <i className="fa-brands fa-css3-alt"></i>
-        <i className="fa-brands fa-html5"></i>
-        <i className="fa-brands fa-square-js"></i>
-        <i className="fa-brands fa-java"></i>
-        <i className="fa-brands fa-angular"></i>
-        <i className="fa-brands fa-react"></i>
-        <i className="fa-brands fa-node"></i>
-        <i className="fa-brands fa-github"></i>
-        <i className="fa-brands fa-unity"></i>
-        <i className="fa-brands fa-slack"></i>
+        <i className="fa-brands fa-html5" title={datos.skills.technologies[0]}></i>
+        <i className="fa-brands fa-css3-alt" title={datos.skills.technologies[1]}></i>
+        <i className="fa-brands fa-square-js" title={datos.skills.technologies[2]}></i>
+        <i className="fa-brands fa-angular" title={datos.skills.technologies[3]}></i>
+        <i className="fa-brands fa-react" title={datos.skills.technologies[4]}></i>
+        <i className="fa-brands fa-java" title={datos.skills.technologies[5]}></i>
+        <i className="fa-brands fa-node" title={datos.skills.technologies[6]}></i>
+        <i className="fa-brands fa-github" title={datos.skills.technologies[7]}></i>
+        <i className="fa-brands fa-slack" title={datos.skills.technologies[8]}></i>
+        <i className="fa-brands fa-unity" title={datos.skills.technologies[9]}></i>
       </div>
 
       <div id="experiencia">
@@ -106,14 +106,17 @@ function App() {
       </div>
 
 
-      {/*<div id="intereses">
-        <h1><i className="fa-solid fa-star-of-life"></i> {datos.nav.cinco}</h1>
+      <div id="intereses">
+        <h1><img src={estrella} alt="" /> {datos.nav.cinco}<img src={estrella} alt="" /></h1>
+        <hr />
+        <div id='tarjetas'>
         <ul>
           {datos.interests.map((interest, index) => (
             <li key={index}>{interest}</li>
           ))}
         </ul>
-      </div>*/}
+        </div>
+      </div>
 
       <div id='despedida'>
         <h1><img src={estrella} alt="" />{idioma === "esp" ? "¡Muchas Gracias Por Tu Tiempo!" : "Thank You For Your Time!"}<img src={estrella} alt="" /></h1>
