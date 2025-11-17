@@ -73,6 +73,16 @@ function App() {
         </div>
       </div>
 
+      <div id="proyectos">
+        <h1><img src={estrella} alt="" /> {datos.nav.seis}<img src={estrella} alt="" /></h1>
+        <hr />
+        <div id='tarjetas'>
+          {datos.proyects.map((course, index) => (
+            <a key={index} href={course.url} target="_blank">{course.title}</a>
+          ))}
+        </div>
+      </div>
+
 
       <div id="educacion">
         <h1><img src={estrella} alt="" /> {datos.nav.tres} <img src={estrella} alt="" /></h1>

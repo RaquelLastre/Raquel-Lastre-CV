@@ -4,7 +4,8 @@
         "dos": "Experiencia",
         "tres": "Educación",
         "cuatro": "Cursos",
-        "cinco": "Intereses"
+        "cinco": "Intereses",
+        "seis": "Proyectos"
     },
     "header": {
         "greeting": "¡Hola!",
@@ -73,6 +74,16 @@
             ]
         }
     ],
+    "proyects": [
+        {
+            "title": "Re: Die",
+            "url": "https://larache.itch.io/re-die"
+        },
+        {
+            "title": "OneCoinChaos",
+            "url": "https://srzalo.itch.io/one-coin-chaos"
+        }
+    ],
     "education": [
         {
             "year_range": "2024 – 2026",
@@ -81,7 +92,8 @@
             "details": [
                 "Desarrollo de aplicaciones Front-End con HTML, CSS y React, creando interfaces claras y funcionales.",
                 "Programación Back-End utilizando Java, MariaDB y MongoDB.",
-                "Realización de proyectos completos que integran bases de datos, vistas y librerías, aplicando buenas prácticas de desarrollo"            ]
+                "Realización de proyectos completos que integran bases de datos, vistas y librerías, aplicando buenas prácticas de desarrollo"
+            ]
         },
         {
             "year_range": "2021 – 2023",
@@ -96,41 +108,41 @@
     ],
     "courses": [
         {
-      "title": "Fundamentos de Angular",
-      "url": "https://academia.openwebinars.net/aprende/angular/"
-    },
-    {
-      "title": "Fundamentos de React",
-      "url": "https://openwebinars.net/cursos/react/"
-    },
-    {
-      "title": "Fundamentos JavaScript",
-      "url": "https://openwebinars.net/cursos/javascript-fundamentos/"
-    },
-    {
-      "title": "Diseño Web Responsive",
-      "url": "https://academia.openwebinars.net/aprende/responsive-web-design/"
-    },
-    {
-      "title": "Figma",
-      "url": "https://academia.openwebinars.net/aprende/figma/"
-    },
-    {
-      "title": "Teoría del color y la luz",
-      "url": "https://www.domestika.org/es/courses/1560-principios-de-iluminacion-para-pintura-digital?exp_set=1"
-    },
-    {
-      "title": "Inspiración creativa",
-      "url": "https://www.domestika.org/es/courses/2227-sketching-diario-como-inspiracion-creativa"
-    },
-    {
-      "title": "Concept Art",
-      "url": "https://www.domestika.org/es/courses/3940-concept-art-para-diseno-de-personajes-y-worldbuilding"
-    },
-    {
-      "title": "Photoshop",
-      "url": "https://www.domestika.org/es/courses/982-adobe-photoshop-para-concept-art"
-    }
+            "title": "Fundamentos de Angular",
+            "url": "https://academia.openwebinars.net/aprende/angular/"
+        },
+        {
+            "title": "Fundamentos de React",
+            "url": "https://openwebinars.net/cursos/react/"
+        },
+        {
+            "title": "Fundamentos JavaScript",
+            "url": "https://openwebinars.net/cursos/javascript-fundamentos/"
+        },
+        {
+            "title": "Diseño Web Responsive",
+            "url": "https://academia.openwebinars.net/aprende/responsive-web-design/"
+        },
+        {
+            "title": "Figma",
+            "url": "https://academia.openwebinars.net/aprende/figma/"
+        },
+        {
+            "title": "Teoría del color y la luz",
+            "url": "https://www.domestika.org/es/courses/1560-principios-de-iluminacion-para-pintura-digital?exp_set=1"
+        },
+        {
+            "title": "Inspiración creativa",
+            "url": "https://www.domestika.org/es/courses/2227-sketching-diario-como-inspiracion-creativa"
+        },
+        {
+            "title": "Concept Art",
+            "url": "https://www.domestika.org/es/courses/3940-concept-art-para-diseno-de-personajes-y-worldbuilding"
+        },
+        {
+            "title": "Photoshop",
+            "url": "https://www.domestika.org/es/courses/982-adobe-photoshop-para-concept-art"
+        }
     ],
     "interests": [
         "Programación: Me gusta aprender nuevas tecnologías y experimentar con ideas propias.",

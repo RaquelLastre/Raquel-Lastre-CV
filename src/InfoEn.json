@@ -4,7 +4,8 @@
         "dos": "Experience",
         "tres": "Education",
         "cuatro": "Courses",
-        "cinco": "Interests"
+        "cinco": "Interests",
+        "seis": "Proyects"
     },
     "header": {
         "greeting": "Hello!",
@@ -72,6 +73,10 @@
                 "Created 3D models, animations, visual effects, and concept art, applying digital animation and design techniques."
             ]
         }
+    ],
+    "proyects":[
+        {"Re: Die":"https://larache.itch.io/re-die"},
+        {"OneCoinChaos":"https://srzalo.itch.io/one-coin-chaos"}
     ],
     "education": [
         {
